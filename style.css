@@ -117,6 +117,26 @@ section {
     margin-right: 30px;
 }
 
+.full::after {
+    content: "|";
+    display: inline;
+    animation: infinite keyboard 0.8s;
+}
+
+@keyframes keyboard {
+    0% {
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+
+    }
+   
+    100%{ 
+        opacity: 0;
+    }
+}
+
 /* SECTION PROJECTS */
 
 #projects {
