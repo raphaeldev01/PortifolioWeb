@@ -198,3 +198,41 @@ section {
     background-color: #eee;
     color: #000;
 }
+
+/* SECTION CONTACT */
+
+#contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentCtt {
+    width: 500px;
+    background-color: #303030;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding:  30px 50px;
+}
+
+.contentCtt .title {
+    font-family: Poppins;
+    font-size: 44px;
+    font-weight: 200;
+}
+
+.iten {
+    display: flex;
+    margin: 20px 0px;
+    border-bottom: #eee 1px dashed;
+    padding-bottom: 15px ;
+    align-items: center;
+    gap: 15px;
+    font-family: Poppins;
+    font-weight: 200;
+}
+
+.text {
+    text-decoration: none;
+    color: #eee;
+}

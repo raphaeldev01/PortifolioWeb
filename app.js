@@ -1,4 +1,4 @@
-function animationText () {
+const animationText =   () => {
     const element = document.getElementById("full")
     const text = "a Full-stack Developer"
     const arr = text.split("")
@@ -12,5 +12,8 @@ function animationText () {
         index += 1 
     }, 100)
 }
-
 animationText()
+
+setInterval(() => {
+    animationText()
+}, 5400)
