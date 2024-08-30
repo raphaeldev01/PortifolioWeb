@@ -73,11 +73,16 @@ nav {
 
 .socialmedias a {
     text-decoration: none;
+    transition: all .2s;
 }
 
 .socialmedias img {
     width: 30px;
     margin: 5px;
+}
+
+.socialmedias a:hover {
+    transform: scale(1.1);
 }
 
 
