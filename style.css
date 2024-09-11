@@ -35,6 +35,7 @@ header {
     padding: 0 3rem;
     position: fixed;
     top: 0;
+    z-index: 99;
 }
 
 .logo {
@@ -64,6 +65,7 @@ nav {
 /* SOCIAL MEDIAS */
 
 .socialmedias {
+    z-index: 99;
     position: fixed;
     bottom: 50px;
     left: 3rem;
@@ -204,6 +206,7 @@ section {
     color: #000;
 }
 
+/* #region contact*/
 /* SECTION CONTACT */
 
 #contact {
@@ -240,4 +243,111 @@ section {
 .text {
     text-decoration: none;
     color: #eee;
+}
+/* #endregion */
+
+@media screen and (max-width: 1024px) {
+    .site {
+        width: 150px;
+        background-size: 150px;
+
+    }
+
+    .sites::after {
+        width: 650px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .name {
+        font-size: 56px;
+    }
+
+    .im, .full {
+        font-size: 20px;
+    }
+
+    .site {
+        width: 150px;
+        background-size: 150px;
+
+    }
+
+    .site:nth-child(2) {
+        width: 200px;
+        background-size: 200px;
+    }
+
+    .sites::after {
+        width: 540px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .name {
+        font-size: 42px;
+    }
+    .sites::after{
+        width: 300px;
+    }
+    .site{
+        display: none;
+    }
+
+    .site:nth-child(2){
+        display: flex;
+        width: 300px;
+        background-size: 300px;
+    }
+
+    .contentCtt {
+        width: 300px;
+        font-size: 12px;
+        padding:  15px;
+    }
+
+    .contentCtt .title {
+        font-size: 32px;
+    }
+    
+}
+
+@media (max-width: 470px) {
+    .name {
+        font-size: 28px;
+        margin-top: 10px;
+    }
+
+    .im , .full {
+        font-size: 15px;
+    }
+
+    .site:nth-child(2) {
+        width: 250px;
+        background-size: 250px;
+        height: 300px;
+    }
+
+    .contentCtt {
+        width: 300px;
+        height: 300px;
+    }
+
+    .iten {
+        padding: 4px;
+        margin: 5px;
+    }
+
+    .socialmedias{
+        flex-direction: row;
+    }
+
+    header {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .navOpt:hover{
+        font-size: 14px;
+    }
 }
