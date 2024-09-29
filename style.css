@@ -224,6 +224,10 @@ section {
     padding:  30px 50px;
 }
 
+.iten a {
+    text-decoration: none;
+}
+
 .contentCtt .title {
     font-family: Poppins;
     font-size: 44px;
@@ -305,6 +309,7 @@ section {
         width: 300px;
         font-size: 12px;
         padding:  15px;
+        color: #eee;
     }
 
     .contentCtt .title {

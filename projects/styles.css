@@ -52,6 +52,28 @@ body {
 
 }
 
+#pokedex{
+    background-image: url(../assets/pokedex.png);
+    background-position: center 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#drlarissa {
+    background-image: url(../assets/drlarissa.png);
+}
+
+.iten .img {
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* min-width: 200px; */
+    width: 20%;
+    height: 300px;
+    image-rendering: 1px;
+
+}
+
 .itenName {
     font-size: 1.6rem;
 } 
@@ -116,6 +138,13 @@ body {
         height: 200px;
         
     }
+
+    .iten .img {
+        width: 100%;
+        height: 200px;
+        
+    }
+
     .iten .infos {
         align-items: center;
         padding: 10px;
